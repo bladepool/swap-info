@@ -1,6 +1,6 @@
 import React from 'react'
 import styled, { css, keyframes } from 'styled-components'
-import Logo from '../../assets/logo_white.svg'
+import Logo from '../../assets/swap.png'
 
 const rotate = keyframes`
   0% { transform: scale(1); }

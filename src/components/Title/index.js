@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import { useMedia } from 'react-use'
 import { Flex } from 'rebass'
 import { RowFixed } from '../Row'
-import Logo from '../../assets/logo_white.svg'
+import Logo from '../../assets/swap.png'
 import SmallLogo from '../../assets/cro-icon.png'
 
 const TitleWrapper = styled.div`

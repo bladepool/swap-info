@@ -280,11 +280,11 @@ function TxnList({ transactions, symbol0Override, symbol1Override, color }) {
 
   const ListItem = ({ item }) => {
     if (item.token0Symbol === 'WETH') {
-      item.token0Symbol = 'ETH'
+      item.token0Symbol = 'TRES'
     }
 
     if (item.token1Symbol === 'WETH') {
-      item.token1Symbol = 'ETH'
+      item.token1Symbol = 'TRES'
     }
 
     return (
@@ -295,7 +295,7 @@ function TxnList({ transactions, symbol0Override, symbol1Override, color }) {
           </Link>
         </DataText>
         <DataText area="value">
-          {currency === 'ETH' ? 'Ξ ' + formattedNum(item.valueETH) : formattedNum(item.amountUSD, true)}
+          {currency === 'TRES' ? 'Ξ ' + formattedNum(item.valueETH) : formattedNum(item.amountUSD, true)}
         </DataText>
         {!below780 && (
           <>

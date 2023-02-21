@@ -66,7 +66,7 @@ export default function TokenLogo({ address, header = false, size = '24px', ...r
     return (
       <StyledEthereumLogo size={size} {...rest}>
         <img
-          src={tokenLogoPath('ETH')}
+          src={tokenLogoPath('TRES')}
           style={{ boxShadow: '0px 6px 10px rgba(0, 0, 0, 0.075)', borderRadius: '24px' }}
           alt=""
         />
