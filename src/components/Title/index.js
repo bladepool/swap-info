@@ -53,7 +53,7 @@ export default function Title() {
               <img height={'30px'} src={Logo} alt="logo" />
             )}
           </a>
-          <ReturnText href={swapLink}>{below600 ? 'Back' : 'Back to Crypto.com DeFi Swap'}</ReturnText>
+          <ReturnText href={swapLink}>{below600 ? 'Back' : 'Back to treschain.io TresSwap'}</ReturnText>
         </RowFixed>
       </Flex>
     </TitleWrapper>

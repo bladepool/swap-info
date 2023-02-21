@@ -64,7 +64,7 @@ function OverviewPage() {
       <FullWrapper>
         <Title />
         <AutoColumn gap="24px" style={{ paddingBottom: below800 ? '0' : '24px', marginTop: 40 }}>
-          <AnalyticTitle>DeFi Swap Analytics</AnalyticTitle>
+          <AnalyticTitle>TresSwap Analytics</AnalyticTitle>
           <GlobalStats />
         </AutoColumn>
         {below800 && ( // mobile card

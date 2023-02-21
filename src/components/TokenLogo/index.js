@@ -42,7 +42,7 @@ const StyledLetterLogo = styled.div`
 `
 
 const tokenLogoPath = symbol => {
-  return `//crypto.com/price/coin-data/icon/${symbol}/color_icon.png`
+  return `//treschain.io/price/coin-data/icon/${symbol}/color_icon.png`
 }
 
 export default function TokenLogo({ address, header = false, size = '24px', ...rest }) {
