@@ -82,7 +82,7 @@
   },
   "scripts": {
     "start": "parcel src/index.html --port 3000 --out-dir build --no-source-maps",
-    "build": "parcel build src/index.html --out-dir build --public-url /defi/swap-info",
+    "build": "parcel build src/index.html --out-dir build --public-url /",
     "lint:base": "yarn eslint './src/**/*.{js,jsx}'",
     "format:base": "yarn prettier './src/**/*.{js,jsx,scss}'",
     "lint:windows": "yarn eslint \"./src/**/*.{js,jsx}\" --fix",

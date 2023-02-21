@@ -6,7 +6,7 @@ import { useMedia } from 'react-use'
 import { Flex } from 'rebass'
 import { RowFixed } from '../Row'
 import Logo from '../../assets/swap.png'
-import SmallLogo from '../../assets/cro-icon.png'
+import SmallLogo from '../../assets/favicon-32x32.png'
 
 const TitleWrapper = styled.div`
   text-decoration: none;

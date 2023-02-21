@@ -51,7 +51,7 @@ function App() {
         Object.keys(globalData).length > 0 &&
         globalChartData &&
         Object.keys(globalChartData).length > 0 ? (
-          <BrowserRouter basename="/defi/swap-info">
+          <BrowserRouter basename="/">
             <Route path="/" exact>
               <LayoutWrapper savedOpen={savedOpen} setSavedOpen={setSavedOpen}>
                 <OverviewPage />
